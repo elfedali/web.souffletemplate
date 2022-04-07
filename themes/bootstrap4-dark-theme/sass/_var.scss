@@ -1,0 +1,121 @@
+$white: #fff !default;
+$gray-100: #f8f9fa !default;
+$gray-200: #e9ecef !default;
+$gray-300: #dee2e6 !default;
+$gray-400: #ced4da !default;
+$gray-500: #adb5bd !default;
+$gray-600: #6c757d !default;
+$gray-700: #495057 !default;
+$gray-800: #343a40 !default;
+$gray-900: #212529 !default;
+$black: #000 !default;
+
+$blue: #0984e3;
+$indigo: #6c5ce7;
+$purple: #8f26f1;
+$pink: #e84393;
+$red: #d63031;
+$orange: #fdcb6e;
+$yellow: #ffeaa7;
+$green: #00b894;
+$teal: #25c293;
+$cyan: #6ad3c5;
+
+$primary: $blue;
+$secondary: $gray-600;
+$success: $green;
+$info: $cyan;
+$warning: $yellow;
+$danger: $red;
+$light: $gray-100;
+$dark: $gray-800;
+
+// WHEN LIGHT OR DARK
+
+// ONLY WHEN IT'S DARK THEME
+
+// Global
+$border-color: lighten($dark, 10%);
+
+// Body
+$body-bg: lighten($dark, 4%);
+$body-color: $gray-100;
+$text-muted: $gray-500;
+
+// Buttons
+$input-btn-padding-y: 0.4rem;
+$input-btn-padding-x: 0.8rem;
+
+// Dropdowns
+
+$dropdown-color: $body-color;
+$dropdown-bg: $dark;
+
+$dropdown-border-color: $border-color;
+$dropdown-divider-bg: $border-color;
+$dropdown-link-color: $body-color;
+$dropdown-link-hover-color: $white;
+$dropdown-link-hover-bg: $body-bg;
+$dropdown-link-active-color: $dropdown-link-hover-color;
+$dropdown-link-active-bg: $dropdown-link-hover-bg;
+
+// Breadcrumb
+
+$breadcrumb-bg: lighten($dark, 10%);
+$breadcrumb-active-color: $gray-500;
+
+// Input
+$input-border-color: lighten($dark, 10%);
+$input-group-addon-bg: $white;
+
+$custom-range-track-bg: lighten($dark, 10%);
+// Jumbotron
+$jumbotron-bg: lighten($dark, 10%);
+
+// Pagination
+$pagination-color: $white;
+$pagination-bg: transparent;
+$pagination-hover-color: $white;
+$pagination-hover-bg: lighten($dark, 10%);
+$pagination-active-bg: $primary;
+$pagination-active-border-color: none;
+
+// Cards
+
+$card-border-color: rgba(lighten($dark, 10%), 0.3);
+$card-cap-bg: lighten($dark, 10%);
+$card-bg: lighten($dark, 10%);
+
+// Popovers
+$popover-bg: lighten($dark, 10%);
+
+// Modals
+$modal-content-bg: lighten($dark, 10%);
+$modal-header-border-color: rgba(lighten(lighten($dark, 10%), 5%), 0.3);
+
+// List group
+
+$list-group-color: $body-color;
+$list-group-bg: lighten($dark, 10%);
+$list-group-border-color: rgba(lighten(lighten($dark, 10%), 5%), 0.3);
+$list-group-hover-bg: lighten(lighten($dark, 10%), 2%);
+$list-group-action-hover-color: $light;
+$list-group-action-active-bg: $dark;
+
+// link
+$link-decoration: none;
+
+// Navs
+$nav-tabs-link-active-color: $light;
+$nav-tabs-link-active-bg: $body-bg;
+
+// MORE SCSS
+
+.modal-header {
+  background: var(--primary);
+  border-bottom: none !important;
+}
+
+.navbar-light .form-control {
+  color: lighten($dark, 10%) !important;
+}
