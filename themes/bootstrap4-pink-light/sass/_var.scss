@@ -1,0 +1,110 @@
+$white: #fff;
+$gray-100: #f8f9fa;
+$gray-200: #e9ecef;
+$gray-300: #dee2e6;
+$gray-400: #ced4da;
+$gray-500: #adb5bd;
+$gray-600: #6c757d;
+$gray-700: #495057;
+$gray-800: #343a40;
+$gray-900: #212529;
+$black: #000;
+
+$blue: #1873d3;
+$indigo: #6610f2;
+$purple: #6f42c1;
+$pink: #ec008c;
+$red: #d64541;
+$orange: #d26d00;
+$yellow: #ffc107;
+$green: #66cc99;
+$teal: #20c997;
+$cyan: #14cdc8;
+
+$primary: $pink;
+$secondary: $gray-500;
+$success: $green;
+$info: #17a2b8;
+$warning: $orange;
+$danger: $red;
+$light: $gray-300;
+$dark: $gray-900;
+
+$border-color: $gray-100;
+$body-bg: $gray-800;
+$body-color: $white;
+$text-muted: $gray-400;
+// Dropdown
+$dropdown-color: $body-color;
+$dropdown-bg: $dark;
+$dropdown-border-color: $border-color;
+$dropdown-divider-bg: $border-color;
+$dropdown-link-color: $body-color;
+$dropdown-link-hover-color: $white;
+$dropdown-link-hover-bg: $body-bg;
+$dropdown-link-active-color: $dropdown-link-hover-color;
+$dropdown-link-active-bg: $dropdown-link-hover-bg;
+
+// Breadcrumb
+$breadcrumb-bg: lighten($body-bg, 5%);
+$breadcrumb-active-color: $gray-500;
+
+// Input
+$input-border-color: lighten($body-bg, 5%);
+$input-btn-focus-box-shadow: none;
+
+// Input custom
+$input-group-addon-bg: lighten($body-bg, 5%);
+$input-group-addon-color: $light;
+$custom-file-button-color: $light;
+
+$custom-range-track-bg: white;
+
+$component-active-bg: $pink;
+// Jumbotron
+$jumbotron-bg: lighten($body-bg, 5%);
+
+// Pagination
+$pagination-color: $white;
+$pagination-bg: lighten($body-bg, 5%);
+$pagination-hover-color: $white;
+$pagination-hover-bg: lighten($body-bg, 5%);
+$pagination-active-bg: $pink;
+$pagination-active-border-color: none;
+
+// Cards
+$card-border-color: lighten($body-bg, 5%);
+$card-cap-bg: lighten($body-bg, 5%);
+$card-bg: lighten($body-bg, 10%);
+
+// Popovers
+$popover-bg: lighten($body-bg, 5%);
+
+// Modals
+$modal-content-bg: lighten($body-bg, 5%);
+$modal-header-border-color: rgba(lighten(lighten($body-bg, 5%), 5%), 0.3);
+
+// List group
+$list-group-color: $body-color;
+$list-group-bg: lighten($body-bg, 5%);
+$list-group-border-color: lighten($dark, 8%);
+$list-group-hover-bg: $gray-700;
+$list-group-action-hover-color: $light;
+$list-group-action-active-bg: $gray-700;
+$list-group-active-bg: $pink;
+$list-group-border-color : $gray-700;
+// link
+
+$link-decoration: none;
+$link-color: $pink;
+
+// Navs
+$nav-tabs-link-active-color: $pink;
+$nav-tabs-link-active-bg: $body-bg;
+
+// MORE SCSS
+
+.modal-header {
+  background: var(--primary);
+  border-bottom: none !important;
+}
