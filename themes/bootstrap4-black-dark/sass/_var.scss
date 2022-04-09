@@ -1,0 +1,116 @@
+// use this scss varibales to edit the theme (bootstrap black theme  )
+
+$white: #fff;
+$gray-100: #f8f9fa;
+$gray-200: #e9ecef;
+$gray-300: #dee2e6;
+$gray-400: #ced4da;
+$gray-500: #adb5bd;
+$gray-600: #6c757d;
+$gray-700: #495057;
+$gray-800: #343a40;
+$gray-900: #212529;
+$black: #121212;
+
+$blue: #4883d1;
+$indigo: #6610f2;
+$purple: #6f42c1;
+$pink: #e83e8c;
+$red: #dc3545;
+$orange: #db631e;
+$yellow: #ffc107;
+$green: #28a745;
+$teal: #20c997;
+$cyan: #79ceba;
+
+$primary: $black;
+$secondary: $gray-700;
+$success: $green;
+$info: #1aa7bd;
+$warning: $orange;
+$danger: $red;
+$light: $gray-300;
+$dark: $black;
+
+$border-color: $gray-100;
+$body-bg: $gray-900;
+$body-color: $gray-100;
+$text-muted: $gray-500;
+// Dropdown
+$dropdown-color: $body-color;
+$dropdown-bg: $dark;
+$dropdown-border-color: $border-color;
+$dropdown-divider-bg: $border-color;
+$dropdown-link-color: $body-color;
+$dropdown-link-hover-color: $white;
+$dropdown-link-hover-bg: $body-bg;
+$dropdown-link-active-color: $dropdown-link-hover-color;
+$dropdown-link-active-bg: $dropdown-link-hover-bg;
+
+// Breadcrumb
+$breadcrumb-bg: $gray-800;
+$breadcrumb-active-color: $gray-500;
+
+// Input
+$input-border-color: $gray-800;
+$input-btn-focus-box-shadow : none;
+
+
+// Input custom
+$input-group-addon-bg: $gray-800;
+$input-group-addon-color : $light;
+$custom-file-button-color : $light;
+
+$custom-range-track-bg: $gray-400;
+
+ $component-active-bg : $blue;
+// Jumbotron
+$jumbotron-bg: $gray-800;
+
+// Pagination
+$pagination-color: $white;
+$pagination-bg: $gray-800;
+$pagination-hover-color: $white;
+$pagination-hover-bg: $gray-800;
+$pagination-active-bg: $blue;
+$pagination-active-border-color: none;
+
+// Cards
+$card-border-color: rgba($gray-800, 0.3);
+$card-cap-bg: $gray-800;
+$card-bg: $gray-900;
+
+// Popovers
+$popover-bg: $gray-800;
+
+// Modals
+$modal-content-bg: $gray-800;
+$modal-header-border-color: rgba(lighten($gray-800, 5%), 0.3);
+
+// List group
+$list-group-color: $body-color;
+$list-group-bg: $gray-800;
+$list-group-border-color: lighten($dark, 8%);
+$list-group-hover-bg: $secondary;
+$list-group-action-hover-color: $light;
+$list-group-action-active-bg: $secondary;
+$list-group-active-bg :$blue;
+
+
+
+// link
+
+$link-decoration: none;
+$link-color: $blue;
+
+// Navs
+$nav-tabs-link-active-color: $light;
+$nav-tabs-link-active-bg: $body-bg;
+
+
+// MORE SCSS
+
+.modal-header {
+  background: var(--blue);
+  border-bottom: none !important;
+}

@@ -115,7 +115,3 @@ $nav-tabs-link-active-bg: $body-bg;
   background: var(--primary);
   border-bottom: none !important;
 }
-
-.navbar-light .form-control {
-  color: lighten($dark, 10%) !important;
-}
